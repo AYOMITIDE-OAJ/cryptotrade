@@ -1,0 +1,60 @@
+name: cryptocurrencymarket
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  animator: ^1.0.0+1
+  flutter_page_indicator: ^0.0.3
+  gradient_text: ^1.0.2
+  modal_progress_hud: ^0.1.3
+  http: ^0.12.0+2
+  path_provider: ^1.2.0
+  font_awesome_flutter: ^8.5.0
+  cached_network_image: ^1.1.1
+  shimmer: ^1.0.1
+  screen: ^0.0.5
+  percent_indicator: ^2.1.1+1 
+  connectivity: ^0.4.5+1
+  flutter_sparkline: "^0.1.0"
+  intl: ^0.15.8
+  flutter_webview_plugin: ^0.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/splashBackground.jpg
+   - assets/appIcon.png
+   - assets/planet.png
+   - assets/authImage.jpg
+   - assets/selectAuth.jpg
+   - assets/userImage.png
+   - assets/clap.png
+   - assets/sparkles.png
+   - assets/barcode.png
+
+
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: fonts/Ubuntu-Bold.ttf
+        - asset: fonts/Ubuntu-BoldItalic.ttf
+        - asset: fonts/Ubuntu-Italic.ttf
+        - asset: fonts/Ubuntu-Light.ttf
+        - asset: fonts/Ubuntu-LightItalic.ttf
+        - asset: fonts/Ubuntu-Medium.ttf
+        - asset: fonts/Ubuntu-MediumItalic.ttf
+        - asset: fonts/Ubuntu-Regular.ttf
+   
+
+
