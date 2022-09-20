@@ -1,4 +1,4 @@
-package com.example.cryptocurrencymarket
+package com.studios.oaj.cryptotrade
 
 import android.os.Bundle
 
